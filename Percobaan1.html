@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ini kalkulator TOD</title>
+</head>
+<body>
+    <h3>MARI BERHITUNG TOD</h3>
+    <h4>Kalkulator TOD</h4>
+    <br><br>
+    <label for="angka1">Angka 1</label>
+    <input type="text" id="angka1">
+    <br>
+    <label for="angka2">Angka 2</label>
+    <input type="text" id="angka2">
+    <br>
+    <label for="hasil">Hasil</label>
+    <input type="text" id="hasil">
+    <br><br>
+    <button onclick="ftambah()">Tambah (+)</button>
+    
+
+    <script>
+        var angka1 = document.getElementById("angka1");
+        var angka2 = document.getElementById("angka2");
+        var hasil = document.getElementById("hasil");
+
+        function ftambah() {
+            hasil.value = "HELLO, WORLD!";
+        }
+    </script>
+</body>
+</html>
